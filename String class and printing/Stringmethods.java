@@ -13,7 +13,7 @@ public class Stringmethods {
         String str3=str2.trim();
         String str4=str.substring(3);
         String str5=str.substring(3, 6);
-        String str6=str.replace('e', 'k');
+        String str6=str.replace('E', 'k');
         System.out.println(str1);
         System.out.println(size);
         System.out.println(str3);
