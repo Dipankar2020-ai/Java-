@@ -12,7 +12,7 @@ public class Removeextraspace {
         Scanner sc=new Scanner(System.in);
         //int b=sc.nextInt();
         String str=sc.nextLine();
-        System.out.println(str.replaceAll("\\s+",""));
+        System.out.println(str.replaceAll("\\s+","").trim());
     }
     
 }
